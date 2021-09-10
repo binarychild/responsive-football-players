@@ -1,0 +1,51 @@
+/* google fonts used */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+  
+
+    background: #2D25A0;
+}
+
+/* menu part copa america iamge  */
+
+.menu-container{
+    display: flex;
+}
+
+h1{
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+
+
+    color: #FFFFFF;
+
+}
+
+.player-image img{
+    position: absolute;
+    width: 556.01px;
+    height: 438px;
+    left: 750px;
+    top: 153px;
+
+}

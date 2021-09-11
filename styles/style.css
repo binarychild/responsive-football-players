@@ -22,6 +22,15 @@ body{
     display: flex;
 }
 
+
+/* button create */
+.headline{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 24px;
+}
+
 h1{
     position: absolute;
     width: 485px;
@@ -41,6 +50,36 @@ h1{
 
 }
 
+.btnanchor{
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 464px;
+
+    background: #E02C6D;
+}
+
+.btnanchor .txtwatchlive{
+   
+position: static;
+width: 88px;
+height: 24px;
+left: 24px;
+top: 10px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+/* image part  */
 .player-image img{
     position: absolute;
     width: 556.01px;
@@ -49,3 +88,6 @@ h1{
     top: 153px;
 
 }
+
+/* Players styles */
+

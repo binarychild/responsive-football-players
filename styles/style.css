@@ -5,21 +5,29 @@
 body{
 
     font-family: 'Poppins', sans-serif;
+    margin:0;
+   
+}
+    
+/* menu part copa america iamge  */
 
+
+.flexmenu-container{
     position: absolute;
     width: 1440px;
     height: 677px;
-    left: 0px;
-    top: 0px;
-  
-
+    align-items: center;
+    
     background: #2D25A0;
+
 }
 
-/* menu part copa america iamge  */
+
 
 .menu-container{
     display: flex;
+   
+
 }
 
 
@@ -31,7 +39,9 @@ body{
     padding: 10px 24px;
 }
 
-h1{
+
+
+.menu-container .headline .copatitle h1{
     position: absolute;
     width: 485px;
     height: 230px;
@@ -50,32 +60,38 @@ h1{
 
 }
 
-.btnanchor{
+.menu-container .headline .link-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 24px;
+}
+
+.menu-container .headline .link-button .btn-anchor{
     position: absolute;
+    text-decoration: none;
     width: 168px;
     height: 44px;
     left: 156px;
-    top: 464px;
-
+    top: 515px;
+   
+    
     background: #E02C6D;
 }
 
-.btnanchor .txtwatchlive{
+.menu-container .headline .link-button .btn-anchor .txtwatchlive{
    
 position: static;
 width: 88px;
 height: 24px;
-left: 24px;
-top: 10px;
+left: 55px;
+top: 30px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height */
-
-
 color: #FFFFFF;
 }
 
@@ -84,7 +100,7 @@ color: #FFFFFF;
     position: absolute;
     width: 556.01px;
     height: 438px;
-    left: 750px;
+    left: 777px;
     top: 153px;
 
 }
